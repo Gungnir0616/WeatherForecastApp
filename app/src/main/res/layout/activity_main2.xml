@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lhanman.lhanweather.View.NoScrollViewPager
+        android:id="@+id/main_pager"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#E1E1E1"/>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/tab_dynamic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_main_tab_dynamic"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="天气"
+            android:textColor="@drawable/selector_main_tab_text"
+            android:textSize="11sp"
+            tools:ignore="HardcodedText,SmallSp" />
+        <RadioButton
+            android:id="@+id/tab_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:visibility="gone"
+            android:drawableTop="@drawable/selector_main_tab_home"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="食谱"
+            android:textColor="@drawable/selector_main_tab_text"
+            android:textSize="11sp"
+            tools:ignore="HardcodedText,SmallSp"
+            android:checked="false"/>
+
+
+
+        <RadioButton
+            android:id="@+id/tab_rank"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawableTop="@drawable/selector_main_rank"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="日程"
+            android:textColor="@drawable/selector_main_tab_text"
+            android:textSize="11sp"
+            tools:ignore="HardcodedText,SmallSp" />
+
+        <RadioButton
+            android:id="@+id/tab_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawableTop="@drawable/selector_main_message"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="音乐"
+            android:textColor="@drawable/selector_main_tab_text"
+            android:textSize="11sp"
+            tools:ignore="HardcodedText,SmallSp" />
+
+        <RadioButton
+            android:id="@+id/tab_me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawableTop="@drawable/selector_main_me"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@drawable/selector_main_tab_text"
+            android:textSize="11sp"
+            tools:ignore="HardcodedText,SmallSp" />
+    </RadioGroup>
+
+</LinearLayout>

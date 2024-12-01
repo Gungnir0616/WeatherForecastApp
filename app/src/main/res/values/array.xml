@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="leixing">
+        <item>旅行</item>
+        <item>开会</item>
+        <item>工作</item>
+        <item>更多</item>
+    </string-array>
+</resources>

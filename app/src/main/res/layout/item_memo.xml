@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll"
+    android:gravity="center"
+    android:orientation="vertical" >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ivPic"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <TextView
+    android:layout_marginLeft="10dp"
+    android:id="@+id/tvText"
+        android:textSize="21sp"
+        android:textStyle="bold"
+    android:layout_gravity="center"
+    android:layout_centerVertical="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#000000" />
+
+</RelativeLayout>
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="22dp">
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tv_author"
+        android:textSize="17sp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:textColor="#000000" />
+        <TextView
+            android:layout_marginRight="10dp"
+            android:id="@+id/tv_time"
+            android:textSize="17sp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/tv_leixing"
+            android:textSize="17sp"
+
+            android:layout_marginLeft="110dp"
+
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+    </RelativeLayout>
+    <View
+        android:background="#E1E1E1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+</LinearLayout>
